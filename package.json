@@ -4,26 +4,26 @@
   "author": "Jakub Jafra",
   "license": "MIT",
   "dependencies": {
-    "@storybook/addon-actions": "^3.4.11",
-    "@storybook/addon-knobs": "^3.4.11",
-    "@storybook/addon-options": "^3.4.11",
-    "@storybook/addons": "^3.4.11",
-    "@storybook/react": "^3.4.11",
-    "@storybook/react-native": "^3.4.11",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-options": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@storybook/react-native": "^5.3.19",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "lodash.merge": "^4.6.1",
     "prop-types": "^15.6.2",
     "react-art": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-native-web": "^0.9.0",
-    "react-storybook-addon-chapters": "^2.1.8",
+    "react-native-web": "^0.12.3",
+    "react-storybook-addon-chapters": "^3.1.7",
     "storybook-host": "^5.0.0"
   },
   "scripts": {
     "build": "rm -rf ./node_modules"
   },
   "peerDependencies": {
-    "babel-core": "=6.24.1",
-    "react": "^16.5.2"
+    "babel-core": "^6.24.1",
+    "react": "^16.9.0"
   }
 }
