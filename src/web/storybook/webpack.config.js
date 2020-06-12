@@ -8,9 +8,8 @@ const PATH_TO_PARENT_ROOT = '../../../../../../';
 const PWD = process.env.PWD || fs.realpathSync(__dirname + PATH_TO_PARENT_ROOT);
 const packageJson = JSON.parse(fs.readFileSync(PWD + '/package.json'));
 
-module.exports = (storybookBaseConfig, configType, defaultConfig) => {
+module.exports = ({ config: defaultConfig }) => {
     const config = createConfig(packageJson);
-
     const { excludedPaths, includedFontPaths } = config;
 
     const alias = {
@@ -25,7 +24,6 @@ module.exports = (storybookBaseConfig, configType, defaultConfig) => {
         alias: alias,
     };
 
-    // babel loader
     defaultConfig.module.rules[0].exclude = function (modulePath) {
         return excludedPaths.some(path => new RegExp(path).test(modulePath));
     };

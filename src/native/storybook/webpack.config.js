@@ -1,3 +1,3 @@
-module.exports = (storybookBaseConfig, configType, defaultConfig) => {
-    return defaultConfig;
+module.exports = ({ config }) => {
+    return config;
 };

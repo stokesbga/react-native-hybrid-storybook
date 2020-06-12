@@ -1,6 +1,6 @@
 {
   "name": "react-native-hybrid-storybook",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Jakub Jafra",
   "license": "MIT",
   "dependencies": {
@@ -12,8 +12,10 @@
     "@storybook/react-native": "^5.3.19",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "lodash.merge": "^4.6.1",
+    "moment": "^2.26.0",
     "prop-types": "^15.6.2",
     "react-art": "^16.5.2",
+    "react-datetime": "^2.16.3",
     "react-dom": "^16.5.2",
     "react-native-web": "^0.12.3",
     "react-storybook-addon-chapters": "^3.1.7",
