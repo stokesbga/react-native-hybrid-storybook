@@ -1,31 +1,29 @@
 {
   "name": "react-native-hybrid-storybook",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Jakub Jafra",
   "license": "MIT",
-  "dependencies": {
+  "scripts": {
+    "build": "rm -rf ./node_modules"
+  },
+  "peerDependencies": {
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-options": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@storybook/react-native": "^5.3.19",
+    "babel-core": "^6.24.1",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "lodash.merge": "^4.6.1",
     "moment": "^2.26.0",
     "prop-types": "^15.6.2",
+    "react": "^16.9.0",
     "react-art": "^16.5.2",
     "react-datetime": "^2.16.3",
     "react-dom": "^16.5.2",
     "react-native-web": "^0.12.3",
     "react-storybook-addon-chapters": "^3.1.7",
     "storybook-host": "^5.0.0"
-  },
-  "scripts": {
-    "build": "rm -rf ./node_modules"
-  },
-  "peerDependencies": {
-    "babel-core": "^6.24.1",
-    "react": "^16.9.0"
   }
 }
